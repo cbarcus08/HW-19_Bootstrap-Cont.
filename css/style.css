@@ -1,0 +1,346 @@
+
+.navBar {
+    background-color:pink;
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.primaryNav {
+    color: white;
+    height: 80px;
+}
+
+.active {
+    color: black;
+}
+
+.jumbotron {
+    width: 30%;
+    margin-top: 40px;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.picContainer {
+    background-image: url(../Images/IMG_8561_Pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.profilePic {
+   padding-left: 15px;
+   padding-top: 50px;
+   width: 450px;
+}
+
+.img-fluid {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logoLinks {
+    display: flex;
+    flex-direction: space-between;
+    width: 200px;
+}
+
+.imageLinksheader {
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black:
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 {
+    font-size: 25px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF0080;
+    border-color: #FF0080;
+}
+
+.btn-primary:hover {
+    background-color: pink;
+    border-color: pink;
+    color: black;
+}
+
+
+.hireMeButton {
+    border-radius: 5px;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.btn-outline-secondary {
+    color: black;
+    border-color: #FF0080;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    border-color: pink;
+    background-color: pink;
+}
+
+.resumeButton {
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+    padding-top: 20px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color:#FF0080;
+}
+
+.caseStudies{
+    background-image: url(../Images/Abstract-BG.jpg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#dddddd;
+    /* height: 1450px; */
+
+}
+s
+.secondaryNav {
+    padding-top: 50px;
+}
+
+.cardSection {
+    margin: 50px;
+}
+
+.bottomCards {o
+    margin-top: 50px;
+}
+
+.aboutContent{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutSection {
+    padding-top: 50px;
+    margin: 50px;
+}
+
+
+.aboutText {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    width: 50%;
+    padding: 35px;
+    min-width: 420px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.text {
+    justify-content: center;
+    text-align: left;
+    top: 8px;
+    left: 16px;
+    color: black;
+}
+.aboutTextcontent {
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutTextcontent h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.letsconnect {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.connect-link {
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black:
+}
+
+.card {
+    display: flex;
+    align-items: stretch;
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: black:
+}
+
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:190px;
+}
+ 
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+ 
+header h2{
+	color: #F05283;
+}
+ 
+/* The footer is fixed to the bottom of the page */
+ 
+
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color:pink;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 20px;
+	margin-top: 50px;
+}
+ 
+.footer-distributed  {
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+    color:  white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.footer-links {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-links a:hover{
+    color: #FF0080;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;	
+}
+
+.footer-right {
+    maring: 5px;
+}
+
+.footer-company-about {
+    font-size: 28px;
+    font-family: 'Bad Script', cursive;
+    color: #FF0080;
+    margin: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-company-about p {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.author {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    color: #FF0080;
+}
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+ 
+	
