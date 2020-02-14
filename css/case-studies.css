@@ -1,0 +1,50 @@
+.navBar {
+    background-color:pink;
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#navbarNavAltMarkup{
+    justify-content: center;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.primaryNav {
+    color: white;
+    height: 80px;
+}
+
+.navItems {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#navbarNavAltMarkup{
+    justify-content: center;
+    align-items: center;
+}
+.menuLinks{
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menuLinks:hover {
+    color: #FF0080 !important;
+}
+
+.active {
+    color: black;
+}

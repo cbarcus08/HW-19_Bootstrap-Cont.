@@ -39,6 +39,8 @@
 }
 .menuLinks{
     text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .menuLinks:hover {
     color: #FF0080 !important;
