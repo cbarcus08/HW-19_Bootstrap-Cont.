@@ -48,3 +48,28 @@
 .active {
     color: black;
 }
+
+.HeaderIMG {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.HeaderContent {
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.TheProblem {
+    padding-bottom: 50px;
+}
+
+.TheSolution {
+    padding-bottom: 50px;
+}
+
+
+
