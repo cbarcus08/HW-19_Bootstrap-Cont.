@@ -55,21 +55,57 @@
     padding: 50px;
 }
 
-.HeaderContent {
-    padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    max-width: 1000px;
-    align-items: center;
+.headerOne {
+    display: flex;
+    padding-bottom: 50px;
+    width: 90%;
+    margin-bottom: 50px;
 }
 
-.TheProblem {
-    padding-bottom: 50px;
+.introIMGs {
+    width: 50%;
+    height: auto;
+    margin-bottom: 50px;
 }
 
-.TheSolution {
-    padding-bottom: 50px;
+.groupMembers {
+    margin-left: 30px;
+    padding-left: 30px;
+    float: right;
+    margin-right:100px ;
 }
+
+.theSolution {
+    margin-left: 30px;
+    padding-left: 30px;
+    float: right;
+    margin-right:100px ;
+}
+
+.theProblem {
+    margin-left: 30px;
+    padding-left: 30px;
+    float: right;
+    margin-right:100px ;
+}
+
+
+
+
+h3 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black:
+}
+
+
+
 
 
 
